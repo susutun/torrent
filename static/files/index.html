@@ -1,6 +1,6 @@
 <html ng-app="app" >
 	<head>
-		<title ng-bind="state.Stats.Title">Cloud Torrent</title>
+		<title ng-bind="state.Stats.Title">Factoogle Cloud Torrent</title>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="css/Lato/Lato.css">
 		<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
@@ -22,7 +22,7 @@
 		<!-- TITLE ===================== -->
 		<div class="title">
 			<h2>
-				<a href="https://github.com/jpillora/cloud-torrent"
+				<a href="https://www.factoogle.com"
 					target="_blank"
 					ng-init="logoHover = false"
 					ng-mouseover="logoHover = true"
@@ -30,6 +30,15 @@
 					<i class="blue icon" ng-class="{cloud:!logoHover, github: logoHover}"></i>  {{ state.Stats.Title }}
 				</a>
 			</h2>
+			<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage 728*90 Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3968645922999785"
+     data-ad-slot="8604217753"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+				</script></center>
 			<div class="status">
 				<i ng-show="request.count > 0"
 					class="ui circular loading repeat icon"></i>
@@ -58,7 +67,8 @@
 			<span>github.com/<a href="https://github.com/jpillora" target="_blank">jpillora</a>/<a href="https://github.com/jpillora/cloud-torrent" target="_blank">cloud-torrent</a> version {{ state.Stats.Version }}	-	</span>
 			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users connected	-	</span>
 			<span><a href="https://golang.org" target="_blank">Go</a> {{ state.Stats.Runtime }}</span>
-			<span><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		</footer>
+<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage 728*90 Banner -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
@@ -66,9 +76,7 @@
      data-ad-slot="8604217753"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-				</script></center></span>
-		</footer>
-
+				</script></center>
 		<script src="js/vendor/query-string.js"></script>
 		<script src="js/vendor/angular.min.js"></script>
 		<script src="js/vendor/moment.min.js"></script>
