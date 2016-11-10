@@ -7,13 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="icon" href="cloud-favicon.png" type="image/x-icon" />
 		<style type="text/css">[ng-cloak]{display: none;}</style>
-		<script type="text/javascript">
-  <!--
-  if (screen.width <= 800) {
-    window.location = "http://m.factoogle.net";
-  }
-  //-->
-</script>
 	</head>
 	<body class="app"><div ng-cloak class="cage">
 		<div ng-if="!connected" class="connect-warning ui inverted vertical masthead center aligned segment">
@@ -38,14 +31,14 @@
 				</a>
 			</h2>
 			<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Mobile Article Top Ad -->
+<!-- Mobile Header -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:inline-block;width:320px;height:100px"
      data-ad-client="ca-pub-3968645922999785"
-     data-ad-slot="8942294956"></ins>
+     data-ad-slot="7465561756"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script></center>
+				</script></center><center><p><b>Please enter any query, Torrent URL or Magnet URI</b></p></center>
 			<div class="status">
 				<i ng-show="request.count > 0"
 					class="ui circular loading repeat icon"></i>
@@ -68,7 +61,7 @@
 		<section class="config" ng-controller="ConfigController" ng-include src="'template/config.html'"></section>
 		<section class="omni" ng-controller="OmniController" ng-include src="'template/omni.html'"></section>
 		<section class="torrents" ng-controller="TorrentsController" ng-include src="'template/torrents.html'"></section>
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Mobile Article Top Ad -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:250px"
@@ -76,11 +69,11 @@
      data-ad-slot="8942294956"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+			</script></center>
 		<section class="downloads" ng-controller="DownloadsController" ng-include src="'template/downloads.html'"></section>
 
 		<footer>
-			<span><a href="https://www.factoogle.com" target="_blank">Factoogle Torrent Network</a>  <a href="https://www.facebook.com/ParveenBhadoo" target="_blank">Made By Parveen Bhadoo</a></span>
+			<span><a href="https://www.factoogle.net" target="_blank">Factoogle Torrent Network</a>  <a href="https://www.facebook.com/ParveenBhadoo" target="_blank">Made By Parveen Bhadoo</a></span>
 			<span><a>Update:</a></span>
 			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users online.</span>
 		</footer>
