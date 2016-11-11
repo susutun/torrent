@@ -4,7 +4,9 @@
 
 
 
-**Heroku**
+**Visit utorrentstream.com to learn installing App**
+<a href="https://utorrentstream.com">Website: uTorrentStream.com</a>
+**Herkoku**
 
 Click this button to...
 
