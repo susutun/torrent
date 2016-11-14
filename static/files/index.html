@@ -1,3 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://utorrentstream.com/lib/w3.css">
+<script src="https://utorrentstream.com/lib/w3codecolor.js"></script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="https://utorrentstream.com">Home</a></li>
+<li><a href="/">Refresh Page</a></li>
+<li><a href="https://utorrentstream.com/contact">Contact</a></li>
+</ul>
+</body>
+</html>
 <html ng-app="app" >
 	<head>
 		<title ng-bind="state.Stats.Title">uTorrent Stream</title>
@@ -40,52 +85,6 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 				</script></center>
-			<!DOCTYPE html>
-			<html>
-				<head>
-					<link rel="stylesheet" href="https://utorrentstream.com/lib/w3.css">
-                                        <script src="https://utorrentstream.com/lib/w3codecolor.js"></script>
-					<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #ddd;
-}
-
-li a.active {
-    color: white;
-    background-color: #4CAF50;
-}
-</style>
-				</head>
-				<body>
-					<ul>
-                        <li><a href="https://utorrentstream.com">Home</a></li>
-                        <li><a href="/">Refresh Page</a></li>
-                        <li><a href="https://utorrentstream.com/contact">Contact</a></li>
-                        </ul>
-				</body>
-			</html>
-			<br>
 			<p><b>Please enter any query, Torrent URL or Magnet URI</b></p>
 			<div class="status">
 				<i ng-show="request.count > 0"
