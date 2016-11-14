@@ -8,6 +8,37 @@
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="icon" href="cloud-favicon.png" type="image/x-icon" />
 		<style type="text/css">[ng-cloak]{display: none;}</style>
+		<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+</style>
 	</head>
 	<body class="app"><div ng-cloak class="cage">
 		<div ng-if="!connected" class="connect-warning ui inverted vertical masthead center aligned segment">
@@ -39,46 +70,18 @@
      data-ad-slot="7465561756"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-				</script></center><br><style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #ddd;
-}
-
-li a.active {
-    color: white;
-    background-color: #4CAF50;
-}
-</style>
-</head>
-<body>
-
-<ul>
-  <li><a href="https://utorrentstream.com">Home</a></li>
-  <li><a href="/">Refresh Page</a></li>
-  <li><a href="https://utorrentstream.com/contact">Contact</a></li>
-  <li><a href="https://www.facebook.com/utorrentstreamcom-633076710191835/">Facebook</a></li>
-</ul><br><p><b>Please enter any query, Torrent URL or Magnet URI</b></p>
+				</script></center>
+			<br>
+			<body>
+                        <ul>
+                        <li><a href="https://utorrentstream.com">Home</a></li>
+                        <li><a href="/">Refresh Page</a></li>
+                        <li><a href="https://utorrentstream.com/contact">Contact</a></li>
+                        <li><a href="https://www.facebook.com/utorrentstreamcom-633076710191835/">Facebook</a></li>
+                        </ul>
+                        </body>
+			<br>
+			<p><b>Please enter any query, Torrent URL or Magnet URI</b></p>
 			<div class="status">
 				<i ng-show="request.count > 0"
 					class="ui circular loading repeat icon"></i>
