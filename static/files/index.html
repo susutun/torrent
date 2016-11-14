@@ -35,6 +35,14 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 </style>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=892996750807543";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </head>
 <body>
 <ul>
@@ -102,7 +110,7 @@ li a:hover:not(.active) {
 		<section class="omni" ng-controller="OmniController" ng-include src="'template/omni.html'"></section>
 		<section class="torrents" ng-controller="TorrentsController" ng-include src="'template/torrents.html'"></section>
 		<br>
-		<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<center><div class="fb-like" data-href="https://www.facebook.com/utorrentstreamcom-633076710191835/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div><br><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Mobile Article Top Ad -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:250px"
